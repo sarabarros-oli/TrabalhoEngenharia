@@ -17,7 +17,7 @@ public class Main {
            ArrayList<Tarefa> tarefa = new ArrayList<>();
          AdicionarTarefas ad =new AdicionarTarefas(tarefa);
          AlterarTarefas at=new AlterarTarefas(tarefa);
-         GerenciaListar gl = new GerenciaListar(tarefa);
+         GerenciarListar gl = new GerenciarListar(tarefa);
          ExcluirTarefas et = new ExcluirTarefas(tarefa);
            Scanner sc = new Scanner(System.in);
            int op;
