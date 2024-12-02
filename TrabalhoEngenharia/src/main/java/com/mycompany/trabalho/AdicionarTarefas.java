@@ -36,7 +36,7 @@ public class AdicionarTarefas {
         ta.setDataVencimento(LocalDate.parse(dataVencimento));
 
         Stat status = escolherStatus();
-        ta.setStats(Tarefa.Stat.PENDENTE);
+        ta.setStats(status);
 
         tarefas.add(ta); 
 

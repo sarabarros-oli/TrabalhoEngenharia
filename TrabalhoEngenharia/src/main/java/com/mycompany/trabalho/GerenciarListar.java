@@ -1,6 +1,6 @@
 package com.mycompany.trabalho;
 
-import com.mycompany.trabalho.Tarefa.Stat;
+//import com.mycompany.trabalho.Tarefa.Stat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

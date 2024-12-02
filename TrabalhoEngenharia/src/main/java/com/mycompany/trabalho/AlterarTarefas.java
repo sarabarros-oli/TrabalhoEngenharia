@@ -73,7 +73,7 @@ public class AlterarTarefas {
                 tarefaEncontrada.setDataVencimento(LocalDate.parse(novaData));
                 break;
             case 4:
-                Tarefa.Stat novoStatus = escolherStatus();
+                Stat novoStatus = escolherStatus();
                 tarefaEncontrada.setStats(novoStatus);
                 break;
             case 5:
@@ -92,9 +92,9 @@ public class AlterarTarefas {
         System.out.println("Status: " + tarefaEncontrada.getStats());
     }
 
-    private Tarefa.Stat escolherStatus() {
+    private Stat escolherStatus() {
         System.out.println("Escolha o novo status da tarefa:");
-        Tarefa.Stat[] statuses = Tarefa.Stat.values();
+        Stat[] statuses = Stat.values();
 
         for (int i = 0; i < statuses.length; i++) {
             System.out.println((i + 1) + ". " + statuses[i]);
