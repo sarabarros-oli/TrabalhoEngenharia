@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.trabalho;
-
+ 
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -11,13 +11,13 @@ import java.util.Scanner;
  *
  * @author sarah
  */
-public class Main {
+public class Main { 
        public static void main(String[] args) {
         System.out.println("Hello World!");
            ArrayList<Tarefa> tarefa = new ArrayList<>();
          AdicionarTarefas ad =new AdicionarTarefas(tarefa);
          AlterarTarefas at=new AlterarTarefas(tarefa);
-         GerenciaListar gl = new GerenciaListar(tarefa);
+         GerenciarListar gl = new GerenciarListar(tarefa);
          ExcluirTarefas et = new ExcluirTarefas(tarefa);
            Scanner sc = new Scanner(System.in);
            int op;
