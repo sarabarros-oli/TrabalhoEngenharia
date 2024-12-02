@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.trabalho; 
-
+ 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
