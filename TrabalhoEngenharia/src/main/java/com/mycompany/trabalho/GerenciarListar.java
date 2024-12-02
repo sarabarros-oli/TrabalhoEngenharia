@@ -11,10 +11,10 @@ import java.util.Scanner;
  *
  * @author tainara
  */
-public class GerenciaListar {
+public class GerenciarListar {
     private ArrayList<Tarefa> tarefas;
 
-    public GerenciaListar(ArrayList<Tarefa> tarefas) {
+    public GerenciarListar(ArrayList<Tarefa> tarefas) {
         this.tarefas = tarefas;
     }
    
